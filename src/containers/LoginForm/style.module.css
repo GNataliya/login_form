@@ -1,0 +1,62 @@
+.form {
+    border: 1px solid #37496d;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+
+}
+
+.name {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input {
+    width: 280px;
+    background-color: #1f283f;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input:focus, .input:valid {
+    color: rgb(236, 236, 236);
+}
+
+.btnLogin {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #56407a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnLogin:hover {
+	background:linear-gradient(to bottom, #775f9e 5%, #573c81 100%);
+}
+
+.brnSignin {
+    width: 100%;
+    padding: 10px;
+    background-color: #40527c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brnSignin:hover {
+	background:linear-gradient(to bottom, #6376a1 5%, #445d96 100%);
+}

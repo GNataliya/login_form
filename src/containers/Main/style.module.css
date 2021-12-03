@@ -1,0 +1,7 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #374870;
+}

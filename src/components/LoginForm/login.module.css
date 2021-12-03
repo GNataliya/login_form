@@ -39,13 +39,14 @@
     color: white;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .btnLogin:hover {
 	background:linear-gradient(to bottom, #775f9e 5%, #573c81 100%);
 }
 
-.brnSignin {
+.btnSignin {
     width: 100%;
     padding: 10px;
     background-color: #40527c;
@@ -55,8 +56,9 @@
     font-size: 18px;
     margin: 20px auto;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
-.brnSignin:hover {
+.btnSignin:hover {
 	background:linear-gradient(to bottom, #6376a1 5%, #445d96 100%);
 }

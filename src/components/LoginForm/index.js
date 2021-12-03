@@ -1,4 +1,4 @@
-import style from './style.module.css';
+import style from './login.module.css';
 
 function Login() {
     return (
@@ -10,11 +10,11 @@ function Login() {
                 
                 <input type='text' placeholder="Enter your email" className={style.input} />
                 
-                <input type='password' placeholder="Password" className={style.input} />
+                <input type='password' placeholder="Enter your password" className={style.input} />
                 
 
                 <button className={style.btnLogin}>Confirm</button>
-                <button className={style.brnSignin}>Sign in</button>
+                <button className={style.btnSignin}>Sign in</button>
 
             </form>
         </>

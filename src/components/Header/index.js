@@ -1,4 +1,4 @@
-import style from './style.module.css';
+import style from './header.module.css';
 import { NavLink } from 'react-router-dom'; 
 // import pic from './logo.png';
 

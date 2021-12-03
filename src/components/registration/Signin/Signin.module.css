@@ -33,7 +33,18 @@ input[name="confirm-pwd"] {
 .btnSubmit {
   background-color: #56407a;
   margin-bottom: 20px;
+  font-size: 18px;
 }
+
+.btnSubmit:hover {
+	background:linear-gradient(to bottom, #775f9e 5%, #573c81 100%);
+}
+
 .btnLogin {
   background-color: #40527c;
+  font-size: 18px;
+}
+
+.btnLogin:hover {
+	background:linear-gradient(to bottom, #6376a1 5%, #445d96 100%);
 }

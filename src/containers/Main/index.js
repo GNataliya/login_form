@@ -1,4 +1,4 @@
-import style from './style.module.css';
+import style from './main.module.css';
 
 function Main() {
     return (

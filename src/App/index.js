@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Main from '../containers/Main';
 import Login from '../containers/LoginForm';
-// import Signin from '../conteiners/Signin';
+import Signin from '../components/registration/Signin';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <Routes>
           <Route path='*' element={<Main />} />
           <Route exact path='/Login' element={<Login />} />
-          {/* <Route exact path='/Signin' element={<Signin />} /> */}
+          <Route exact path='/Signin' element={<Signin />} />
       </Routes>
 
     </div>

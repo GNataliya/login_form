@@ -5,7 +5,7 @@ function Login() {
         <>
             <form className={style.form}>
                 
-                <h2 className={style.name}>Login</h2>
+                <h1 className={style.name}>Login</h1>
 
                 
                 <input type='text' placeholder="Enter your email" className={style.input} />

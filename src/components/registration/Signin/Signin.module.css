@@ -1,14 +1,15 @@
 .signInForm {
-  width: 300px;
-  padding: 30px 20px;
   border: 1px solid #37496d;
-  border-radius: 5px;
   display: flex;
   flex-direction: column;
+  width: 300px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  border-radius: 5px;
 }
 .formTile {
   /* text-align: center; */
-  margin: 10px 0 35px 0;
+  margin: 10px auto 35px auto;
 }
 .btn {
   cursor: pointer;
